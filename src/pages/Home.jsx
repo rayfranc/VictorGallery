@@ -79,7 +79,7 @@ Victor Dominguez- Traveller
       <Typography variant='body1' sx={{fontFamily:'Adamina', fontSize:'1 rem'}}>
       Soy Victor Dominguez, fotógrafo de 23 años. Siempre he tenido un ojo para la belleza en el mundo que me rodea. Me fascina la luz natural y el poder que tiene para capturar la esencia de un momento. Empecé a tomar fotografías a una edad temprana, y rápidamente me di cuenta de que era mi pasión. Estudié fotografía en la universidad, donde aprendí las técnicas y el arte de la fotografía. Después de graduarme, comencé a trabajar como fotógrafo independiente. Mi trabajo ha sido publicado en revistas y periódicos de todo el mundo. También he ganado varios premios por mi fotografía. Siempre estoy buscando nuevas formas de expresarme a través de la fotografía. Me gusta experimentar con diferentes técnicas y estilos para crear imágenes únicas y memorables.
       </Typography>
-      <Button variant="outlined" color="primary" sx={{mt:2}} href='/events'>Contact</Button>
+      <Button variant="outlined" color="primary" sx={{mt:2}} href='/#/events'>Contact</Button>
     </Box>
     
 
