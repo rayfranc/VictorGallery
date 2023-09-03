@@ -3,6 +3,7 @@ import {Masonry} from '@mui/lab'
 import { animated } from '@react-spring/web'
 import { useSpring } from '@react-spring/web'
 import { AnimatedImg } from '../components/AnimatedImg'
+import NextPageArrow from '../components/NextPageArrow'
 
 const itemData=[
     {
@@ -46,7 +47,7 @@ export default function Home(){
           from: { x: window.innerWidth,
             },
           to: ()=>{
-            scrollTo(0,0)
+            scrollTo(window.innerWidth,window.innerWidth)
             api.start({
                 x:0
             })
@@ -60,6 +61,7 @@ export default function Home(){
 
     return(<>
     <animated.div style={{...spring}}>
+    <NextPageArrow/>
     <Container maxWidth="lg">
     <Grid container spacing={2}>
   <Grid item xs={12} md={7}>
@@ -94,7 +96,9 @@ Victor Dominguez- Traveller
         ))}
       </Masonry>
     </Container>
+    
     </animated.div>
+    
     </>)
 
 }
